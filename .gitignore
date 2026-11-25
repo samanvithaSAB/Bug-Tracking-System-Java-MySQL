@@ -1,0 +1,14 @@
+# Exclude presentation video
+*.mp4
+
+# Java compiled files
+*.class
+target/
+
+# Sensitive credentials
+.env
+.env.*
+!.env.example
+
+# IDE files
+.idea/
